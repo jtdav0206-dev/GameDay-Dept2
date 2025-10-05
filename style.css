@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('assets/images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+header {
+    background-color: rgba(0,0,0,0.7);
+    padding: 20px;
+    text-align: center;
+}
+nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+.products, .cart, .checkout {
+    padding: 20px;
+}
+.product {
+    background-color: rgba(255,255,255,0.1);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
